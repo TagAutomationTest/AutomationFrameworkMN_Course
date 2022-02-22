@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-22T23:32:24Z" name="Command line suite" finished-at="2022-02-22T23:32:32Z" duration-ms="7333">
+    <groups>
+    </groups>
+    <test started-at="2022-02-22T23:32:24Z" name="Command line test" finished-at="2022-02-22T23:32:32Z" duration-ms="7333">
+      <class name="tests.TestBase">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.TestBase@4b14c583]" started-at="2022-02-22T23:32:15Z" name="startDriver" finished-at="2022-02-22T23:32:24Z" duration-ms="9634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.TestBase@4b14c583]" started-at="2022-02-22T23:32:32Z" name="stopDriver" finished-at="2022-02-22T23:32:33Z" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.TestBase -->
+      <class name="tests.UserRegistrationTest">
+        <test-method signature="UserCanRegisterSuccssfully()[pri:1, instance:tests.UserRegistrationTest@65466a6a]" started-at="2022-02-22T23:32:24Z" name="UserCanRegisterSuccssfully" finished-at="2022-02-22T23:32:32Z" duration-ms="7309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccssfully -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistrationTest@65466a6a]" started-at="2022-02-22T23:32:32Z" name="screenshotOnFailure" finished-at="2022-02-22T23:32:32Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRegisterSuccssfully status=SUCCESS method=UserRegistrationTest.UserCanRegisterSuccssfully()[pri:1, instance:tests.UserRegistrationTest@65466a6a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.UserRegistrationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
